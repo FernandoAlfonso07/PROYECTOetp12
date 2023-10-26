@@ -1,0 +1,9 @@
+select Nombre, descripcion , link from contenido, usuario where usuario.id_usuario = contenido.Id_usuario;
+
+SELECT * FROM bd_proyecto.contenido;
+
+insert into contenido (id_usuario, descripcion, Link) values ('2','Nada', 'nada.com');
+
+update contenido set Id_usuario = '2' where Id_usuario = '142';
+
+delete from contenido where Id_usuario = '1';
